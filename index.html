@@ -78,13 +78,14 @@
                 <hr>
                 <p>Kindler can automatically send a popular Ebook to your kindle everyweek!</p>
                 <!-- <a href="https://github.com/KDF5000/WeeklyBook" class="btn btn-primary btn-xl page-scroll">Find Out More</a> -->
-                <form action="subcribe.php" class='center-block' style="width:300px" method="post">
+                <form action="subcribe.php" class='center-block' style="width:300px" method="post" target="id_iframe">
                     <div class="input-group input-group-lg">
                         <span class="input-group-addon">@</span>
-                        <input type="text" class="form-control" placeholder="example@email.com">
+                        <input type="text" name='subcribe_email'class="form-control" placeholder="example@email.com">
                     </div>
                     <br />
                     <input type="submit" value="Subscribe Now!" class="btn btn-primary btn-xl page-scroll" />
+                    <iframe id="id_iframe" name="id_iframe" style=""></iframe>
                 </form>
             </div>
         </div>
